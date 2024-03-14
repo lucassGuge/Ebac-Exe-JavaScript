@@ -10,35 +10,18 @@ function compararValores (){
     valorA = parseFloat(valorA);
     valorB = parseFloat(valorB);
 
-    var msg = '';
-    // verificar e exibir valor 
+    
+    // verificar e exibir Valido ou Invalido
 
     if (!isNaN(valorA) && !isNaN(valorB)) {
-        if (valorA > valorB) {
-            msg = 'O valor em A é maior.';
-        } else if (valorA < valorB) {
-            msg = 'O valor em B é maior.';
+        if (valorB > valorA) {
+            alert('Formulário válido: O valor de B é maior que o valor de A!');
         } else {
-            msg = 'Os valores são iguais.';
+            alert('Formulário inválido: O valor de B deve ser maior que o valor de A!');
         }
+        return valorB > valorA;
     } else {
-        msg = 'Por favor, insira valores numéricos válidos em ambas as entradas.';
-    }
-    exibirAlert(msg);
-}
-
-
-
-
-function exibirAlert(msg) {
-  var custAlert = document.getElementById('custAlert');
-  var styMsg = document.getElementById('styMsg');
-
-  custAlert.style.display = 'block';
-  styMsg.textContent = msg;
-}
-
-function fecharModal() {
-  var custAlert = document.getElementById('custAlert');
-  custAlert.style.display = 'none';
+        alert('Digite valores válidos nos campos!');
+        return false;
+    }    
 }
