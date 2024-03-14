@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <ul class="equal-size">
+                <li id="logoid">
+                    <img src="/img/logo.png" alt="Logo da APP">
+                </li>
+                <li id="nameid">
+                    <h1>Calcula Medias</h1>
+                </li>
+            </ul>        
+        </header>
+        <section class="maincontent">
+            <div class="cont-main">
+                <div class="formAdicao">
+                    <form>
+                        <ul>
+                            <li>
+                                <input type="text" name="atividade">
+                            </li>
+                            <li>
+                                <input type="text" name="nota">
+                            </li>
+                            <li>
+                                <button type="submit" name="adicionar">Adicionar</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="tabAtv">
+                    <h2>Tabela de Atividades</h2>
+                        <table class="tabela">
+                            <thead>
+                                <tr>
+                                    <th>Nome da Atividade</th>
+                                    <th>Nota</th>
+                                    <th>Aprovado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Linhas da tabela serão adicionadas dinamicamente aqui -->
+                            </tbody>
+                        </table>
+
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    background-color: aqua;
+    max-width: 1366px;
+}
+
+.container {
+    padding: 0.2em;
+    margin: 0.1em;
+    background-color: aqua;
+    width: 100%;
+}
+
+img {
+    width: 150px;
+    height: 80px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+li {
+    padding: 0.5em;
+    justify-content: space-between;
+}
+
+
+.cabecalho {
+    
+    padding: 0.2em;
+    margin: 0.2em;
+    border: solid 0.2em black;
+}
+
+#logoid{
+    max-width: 80%;
+}
+.equal-size {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.equal-size li {
+    flex: 1;
+    margin-right: 10px; 
+}
+
+.equal-size li:last-child {
+    margin-right: 0; 
+}
+.equal-size input {
+    width: 100%; 
+}
+
+.cont-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.formAdicao {
+    max-width: 18.75em; 
+}
+
+.tabAtv {
+    margin-top: 3em;
+    padding: 0.2em;
+}
+.tabela {
+     max-width: 18.75em; 
+
+}
