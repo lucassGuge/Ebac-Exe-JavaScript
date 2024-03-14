@@ -82,6 +82,7 @@ input{
 }
 
 .tabAtv {
+    height: 25em;
     margin-top: 0.2em;
     padding: 0.2em;
     border: solid 0.2em black;
@@ -94,8 +95,11 @@ input{
 tr {
     padding: 0.2em;
     width: 100%;
+    margin-left: 1em; 
+    
 }
 th {
+    border: solid 0.1em black;
     padding: 1em;
 }
 
