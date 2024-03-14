@@ -59,20 +59,33 @@ li {
 }
 
 .cont-main {
-    display: flex;
+    display: flexbox;
     justify-content: center;
     width: 100%;
+    
 }
 
 .formAdicao {
-    max-width: 18.75em; 
+    text-align: center;
+    margin-top: 0.2em;
+    padding: 0.2em;
+    border: solid 0.2em black;
 }
 
 .tabAtv {
-    margin-top: 3em;
+    margin-top: 0.2em;
     padding: 0.2em;
+    border: solid 0.2em black;
 }
 .tabela {
-     max-width: 18.75em; 
+   
 
+}
+
+tr {
+    padding: 0.9em;
+    width: 100%;
+}
+th {
+    padding: 1em;
 }
